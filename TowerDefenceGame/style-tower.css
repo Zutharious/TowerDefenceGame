@@ -1,0 +1,65 @@
+body {
+    background-color: #302c2c;
+    font-family: Arial, sans-serif;
+    -webkit-user-select: none;
+    user-select: none;
+    color:white;
+}
+a:visited{
+    color: azure;
+}
+a:link{
+    color:aquamarine;
+}
+a:hover{
+    color: rgb(55, 143, 143);
+}
+#game{
+    position: relative;
+    height: 720px;
+    width: 1280px;
+    background-color: darkolivegreen;
+    left:50%;
+    transform: translatex(-50%);
+    text-align: center;
+}
+.button{
+    position: absolute;
+    z-index: 1;
+    height: 30px;
+    width: 200px;
+    left: 0px;
+}
+.towerButtons{
+    position: absolute;
+    z-index: 1;
+    height: 30px;
+    width: 200px;
+    left: 0px;
+}
+.button:hover{
+    background-color: darkred;
+}
+.towerButtons:hover{
+    background-color: darkred;
+}
+#ui{
+    position: relative;
+    width: 1280px;
+    height: 200px;
+    border: 2px solid white;
+    left:50%;
+    transform: translatex(-50%);
+    text-align: center;
+}
+.uiInfo{
+    font-size: 30px;
+    -webkit-text-stroke: 1px black;
+    font-weight: bold;
+}
+#livesDiv{
+    color: red;
+}
+#goldDiv{
+    color: gold;
+}
